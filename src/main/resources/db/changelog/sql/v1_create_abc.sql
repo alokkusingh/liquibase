@@ -1,1 +1,0 @@
-create table abc (id int, name varchar(255));

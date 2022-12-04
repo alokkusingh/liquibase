@@ -8,20 +8,20 @@
 		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd
 		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
 		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.9.xsd">
-    <changeSet id="1" author="alok">
+    <changeSet id="5" author="alok">
         <!--<createTable tableName="test_table">
             <column name="test_id" type="int">
                 <constraints primaryKey="true"/>
             </column>
             <column name="test_column" type="varchar"/>
         </createTable>-->
-        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="sql/v1_create_abc.sql"></sqlFile>
+        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="h2/sql/ddl/1-create-spring-batch.sql"></sqlFile>
     </changeSet>
-    <changeSet id="2" author="alok">
-        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="sql/v1_insert_abc.sql"></sqlFile>
+    <changeSet id="6" author="alok">
+        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="h2/sql/ddl/2-create-expense.sql"></sqlFile>
     </changeSet>
-    <changeSet id="3" author="alok">
-        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="sql/v2_insert_abc.sql"></sqlFile>
+    <changeSet id="7" author="alok">
+        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="h2/sql/ddl/3-create-investment.sql"></sqlFile>
     </changeSet>
 
 </databaseChangeLog>

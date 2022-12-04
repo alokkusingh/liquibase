@@ -1,1 +1,0 @@
-insert into abc (id, name) values (2, 'Rachna');
