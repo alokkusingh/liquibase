@@ -17,6 +17,9 @@
         </createTable>-->
         <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="mysql/sql/ddl/1-create-spring-batch.sql"></sqlFile>
     </changeSet>
+    <changeSet id="6" author="alok">
+        <sqlFile endDelimiter=";" relativeToChangelogFile="true" path="mysql/sql/ddl/2-create-tax-monthly.sql"></sqlFile>
+    </changeSet>
 
 
 </databaseChangeLog>
